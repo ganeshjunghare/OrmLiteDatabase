@@ -9,21 +9,18 @@ import java.sql.SQLException
 /**
  * Created by Ganesh Junghare on 9/26/2019.
  */
-class UserDao(val context: Context) {
+class UserDao(private val context: Context) {
 
     @Throws(Exception::class)
-    fun createRecord(userBean: UserBean) : Boolean {
-        var isCreatedRecord = false
+    fun createRecord(userBean: UserBean) {
         try {
             val helperUtil = helperUtil()
             val userDao = helperUtil.getUserDao()
             userDao?.create(userBean)
-            isCreatedRecord = true
-            helperUtil().closeDatabase()
+            helperUtil.closeDatabase()
         } catch (e: SQLException) {
             throw Exception(e.message)
         }
-       return isCreatedRecord
     }
 
     private fun helperUtil(): DatabaseHelper {

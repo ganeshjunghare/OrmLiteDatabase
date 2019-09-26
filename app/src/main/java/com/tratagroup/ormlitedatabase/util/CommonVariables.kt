@@ -1,12 +1,19 @@
 package com.tratagroup.ormlitedatabase.util
 
+import android.Manifest
+
 /**
  * Created by Ganesh Junghare on 9/26/2019.
  */
 object CommonVariables {
 
-    object Constants{
+    val PERMISSIONS = arrayOf(
+        Manifest.permission.WRITE_EXTERNAL_STORAGE
+    )
+    const val REQUEST_PERMISSION = 909
 
-        const val DB_NAME = "ganeshdb"
+    object Constants{
+        const val DB_NAME = "ganeshJ"
+
     }
 }

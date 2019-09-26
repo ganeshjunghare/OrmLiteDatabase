@@ -7,4 +7,6 @@
     <string name="submit">Submit</string>
     <string name="record_created_successfully">Record created successfully</string>
     <string name="record_inserted_fail">Record insertion failed</string>
+    <string name="enable_permission">Enable Permission</string>
+    <string name="enable_permission_message">click on Permission and switch on all notification.</string>
 </resources>

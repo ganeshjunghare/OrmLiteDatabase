@@ -27,13 +27,7 @@ class MainActivity : AppCompatActivity() {
             userBean.userName = idEtUserName.text.toString()
             userBean.userMobile = idEtUserMobile.text.toString()
             val userDao = UserDao(this)
-            val result = userDao.createRecord(userBean)
-            if (result) {
-                getString(R.string.record_created_successfully)
-            } else {
-                getString(R.string.record_inserted_fail)
-            }
-
+            userDao.createRecord(userBean)
         }
     }
 }
