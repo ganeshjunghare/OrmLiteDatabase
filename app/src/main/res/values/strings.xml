@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">OrmLiteDatabase</string>
+    <string name="db_not_exists">database does not exists</string>
+    <string name="dbhelper_found_illegal">db helper found illegal</string>
+    <string name="enter_username">Enter UserName</string>
+    <string name="enter_usermobile">Enter UserMobile</string>
+    <string name="submit">Submit</string>
+    <string name="record_created_successfully">Record created successfully</string>
+    <string name="record_inserted_fail">Record insertion failed</string>
 </resources>
