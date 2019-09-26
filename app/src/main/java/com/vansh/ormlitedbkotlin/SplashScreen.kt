@@ -1,4 +1,4 @@
-package com.tratagroup.ormlitedatabase
+package com.vansh.ormlitedbkotlin
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -10,7 +10,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import androidx.core.app.ActivityCompat
-import com.tratagroup.ormlitedatabase.util.CommonVariables
+import com.vansh.ormlitedbkotlin.util.CommonVariables
 
 class SplashScreen : Activity() {
 

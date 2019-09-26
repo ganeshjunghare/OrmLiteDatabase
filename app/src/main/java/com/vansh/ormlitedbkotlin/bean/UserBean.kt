@@ -1,11 +1,11 @@
-package com.tratagroup.ormlitedatabase.bean
+package com.vansh.ormlitedbkotlin.bean
 
 import android.os.Parcel
 import android.os.Parcelable
 import com.j256.ormlite.field.DataType
 import com.j256.ormlite.field.DatabaseField
 import com.j256.ormlite.table.DatabaseTable
-import com.tratagroup.ormlitedatabase.database.DatabaseHelper
+import com.vansh.ormlitedbkotlin.database.DatabaseHelper
 
 /**
  * Created by Ganesh Junghare on 9/26/2019.

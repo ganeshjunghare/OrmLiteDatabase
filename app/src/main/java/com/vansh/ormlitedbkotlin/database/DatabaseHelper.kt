@@ -1,4 +1,4 @@
-package com.tratagroup.ormlitedatabase.database
+package com.vansh.ormlitedbkotlin.database
 
 import android.content.Context
 import android.os.Environment
@@ -6,10 +6,10 @@ import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper
 import com.j256.ormlite.dao.Dao
 import com.j256.ormlite.support.ConnectionSource
 import com.j256.ormlite.table.TableUtils
-import com.tratagroup.ormlitedatabase.R
-import com.tratagroup.ormlitedatabase.bean.UserBean
-import com.tratagroup.ormlitedatabase.util.CommonMethods
-import com.tratagroup.ormlitedatabase.util.CommonVariables
+import com.vansh.ormlitedbkotlin.R
+import com.vansh.ormlitedbkotlin.bean.UserBean
+import com.vansh.ormlitedbkotlin.util.CommonMethods
+import com.vansh.ormlitedbkotlin.util.CommonVariables
 import net.sqlcipher.database.SQLiteDatabase
 import java.io.File
 import java.lang.Exception

@@ -1,10 +1,10 @@
-package com.tratagroup.ormlitedatabase
+package com.vansh.ormlitedbkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.tratagroup.ormlitedatabase.bean.UserBean
-import com.tratagroup.ormlitedatabase.database.daohelper.UserDao
-import com.tratagroup.ormlitedatabase.util.toast
+import com.vansh.ormlitedbkotlin.bean.UserBean
+import com.vansh.ormlitedbkotlin.database.daohelper.UserDao
+import com.vansh.ormlitedbkotlin.util.toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

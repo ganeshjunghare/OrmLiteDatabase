@@ -1,4 +1,4 @@
-package com.tratagroup.ormlitedatabase.util
+package com.vansh.ormlitedbkotlin.util
 
 import java.io.File
 

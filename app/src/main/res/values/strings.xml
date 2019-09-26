@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OrmLiteDatabase</string>
+    <string name="app_name">OrmLiteDbKotlin</string>
     <string name="db_not_exists">database does not exists</string>
     <string name="dbhelper_found_illegal">db helper found illegal</string>
     <string name="enter_username">Enter UserName</string>

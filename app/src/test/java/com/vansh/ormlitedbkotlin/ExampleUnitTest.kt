@@ -1,4 +1,4 @@
-package com.tratagroup.ormlitedatabase
+package com.vansh.ormlitedbkotlin
 
 import org.junit.Test
 

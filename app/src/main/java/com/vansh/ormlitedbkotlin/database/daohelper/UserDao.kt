@@ -1,9 +1,9 @@
-package com.tratagroup.ormlitedatabase.database.daohelper
+package com.vansh.ormlitedbkotlin.database.daohelper
 
 import android.content.Context
-import com.tratagroup.ormlitedatabase.R
-import com.tratagroup.ormlitedatabase.bean.UserBean
-import com.tratagroup.ormlitedatabase.database.DatabaseHelper
+import com.vansh.ormlitedbkotlin.R
+import com.vansh.ormlitedbkotlin.bean.UserBean
+import com.vansh.ormlitedbkotlin.database.DatabaseHelper
 import java.sql.SQLException
 
 /**
